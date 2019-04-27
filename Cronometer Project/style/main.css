@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Microsoft JhengHei Light";
+    font-size: 17px;
+    line-height: 1.7;
+}
+#showcase{
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("../Alarm.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  /* Showcase done */
+}
+#showcase h1{
+  margin-left: 42%;
+  margin-right: 42%;
+}
+#cronometer{
+  display: grid;
+
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 35%;
+
+  grid-gap: 10px;
+}
+#showcase input{
+  border: 0;
+  padding: 5px;
+}
+button{
+  border: 0;
+  padding: 5px;
+}
+input#userYear, input#userDay, input#userMinute, button#cronometer_Button_Ascend{
+  background-color: rgb(255,182,193);
+  color: #f4f4f4;
+}
+input#userMonth, input#userHour, input#userSecond, button#cronometer_Button_Descend{
+  background: rgb(137, 207, 240);
+  color: #f4f4f4;
+}
+input#userTime{
+  width: 24%;
+  margin-top: 2%;
+
+}

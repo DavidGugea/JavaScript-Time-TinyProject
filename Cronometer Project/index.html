@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cronometer Project</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+</head>
+<body>
+    <header id="showcase">
+        <h1>Time</h1>
+        <div id="cronometer">
+            <!-- 6 inputs needed (year, month, day, hour, minute and seconds) ,3 by 3 2 sides
+              div will be pushed in the middle
+                   The messages will be written in the console
+            -->
+            <input id="userYear" placeholder="Print here your year" type="number">
+            <input id="userMonth" placeholder="Print here your month" type="number">
+            <input id="userDay" placeholder="Print here your day" type="number">
+            <input id="userHour" placeholder="Print here your hour" type="number">
+            <input id="userMinute" placeholder="Print here your minute" type="number">
+            <input id="userSecond" placeholder="Print here your second" type="number">
+            <button onclick="AscendTime()" id="cronometer_Button_Ascend">Add Time</button>
+            <button onclick="DescendTime()" id="cronometer_Button_Descend">Descend Time</button>
+        </div>
+        <input id="userTime" placeholder="Print here the time that you want to ascend or descend in minutes" type="number">
+    </header>
+<script src="JS/main.js"></script>
+</body>
